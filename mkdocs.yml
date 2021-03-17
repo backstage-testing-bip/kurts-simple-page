@@ -1,0 +1,10 @@
+site_name: "kurts-simple-docs"
+site_description: "kurts simple docs"
+site_addon: "addional props "
+
+nav:
+  - Introduction: index.md
+  - Other: other.md
+
+plugins:
+  - techdocs-core

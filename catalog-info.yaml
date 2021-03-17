@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "kurts-simple-docs"
+  description: "kurts simple docs"
+  annotations:
+    github.com/project-slug: backstage-testing-bip/kurts-simple-page
+    backstage.io/techdocs-ref: url:https://github.com/backstage-testing-bip/kurts-simple-page
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "backstage-testing-bip"
